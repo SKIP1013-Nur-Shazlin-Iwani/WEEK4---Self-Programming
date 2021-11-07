@@ -1,0 +1,14 @@
+package selfProgramming;
+
+class AssingmentConversion {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int dollars = 20;
+		double money = dollars;
+		
+		System.out.println(dollars + " " + money);
+
+	}
+
+}
