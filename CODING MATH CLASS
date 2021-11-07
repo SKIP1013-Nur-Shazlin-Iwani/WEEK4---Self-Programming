@@ -1,0 +1,45 @@
+package selfProgramming;
+
+import java.util.Scanner;
+
+// Write a Java program that accepts two integers and then prints the sum, 
+//the difference, the product, the average, the maximum (the larger of the two integers), the minimum (smaller of the two integers).
+
+class MathClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		
+		int num1;
+		int num2;
+		int sum;
+		int difference;
+		int product;
+		double average;
+		int max;
+		int min;
+		
+		System.out.print("Input 1st Integer: ");
+		num1=input.nextInt();
+		System.out.println();
+		System.out.print("Input 2nd Integer: ");
+		num2=input.nextInt();
+		System.out.println();
+		
+		sum=num1+num2;
+		System.out.println("The sum: " + sum);
+		difference=num1-num2;
+		System.out.println("The difference: " + difference);
+		product=num1*num2;
+		System.out.println("The product: " + product);
+		average=(num1*num2)/2;
+		System.out.println("The average: " + average);
+		max=Math.max(num1, num2);
+		System.out.println("The maximum number of two integer: " + max);
+		min=Math.min(num1, num2);
+		System.out.println("The minimum number of two integer: " + min);
+
+	}
+
+}
